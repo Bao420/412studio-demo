@@ -1,0 +1,119 @@
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eaeaea;
+  width: 100vw;
+  height: 35px;
+}
+
+.header__nav-info a {
+  cursor: pointer;
+  color: #000;
+  font-weight: 300;
+  padding: 0 10px;
+}
+.header__nav-search {
+  width: 220px;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+}
+.header__nav-search input {
+  border: none;
+  margin-left: 9px;
+  font-size: 0.9rem;
+  background: transparent;
+}
+.header__nav-search span {
+  width: 1px;
+  height: 15px;
+  background: #acabab;
+  display: inline-block;
+}
+.header__nav-search button {
+  background: transparent;
+  border: none;
+}
+
+.header__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__box-logo {
+  font-size: 35px;
+  margin-left: 200px;
+  background: linear-gradient(to left, #9f2295, #854fe9, #ba0782);
+  width: 300px;
+  height: 100px;
+  -webkit-background-clip: text;
+}
+.header__box-logo h3 {
+  color: transparent;
+  font-family: "Splash", cursive;
+}
+
+.header__box-menu {
+  display: block;
+  font-style: italic;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.header__menu li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 1rem;
+  padding: 0 10px;
+}
+
+.header__menu-nav {
+  display: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  right: 110px;
+  top: 35px;
+  width: 130px;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.header__menu-nav ul {
+  padding: 0;
+}
+.header__menu-nav li {
+  margin-bottom: 5px;
+}
+.header__menu-nav li :hover {
+  box-shadow: 0 1px #000;
+}
+
+.header__menu-icon {
+  display: block;
+  margin-right: 15px;
+}
+.header__menu-icon :hover {
+  background: #ddd;
+}
+.header__menu-icon button {
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  background: transparent;
+  border: none;
+  padding: 5px 10px;
+}
+
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,669 @@
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eaeaea;
+  max-width: 100vw;
+  height: 35px;
+}
+
+.header__nav-info a {
+  cursor: pointer;
+  color: #000;
+  font-weight: 300;
+  padding: 0 10px;
+}
+.header__nav-search {
+  width: 220px;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+}
+.header__nav-search input {
+  border: none;
+  margin-left: 9px;
+  font-size: 0.9rem;
+  background: transparent;
+  outline: none;
+}
+.header__nav-search span {
+  width: 1px;
+  height: 15px;
+  background: #acabab;
+  display: inline-block;
+}
+.header__nav-search button {
+  background: transparent;
+  border: none;
+}
+
+.header__box {
+  position: fixed;
+  left: 50%;
+  top: 18px;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.header__box-menu {
+  display: block;
+  font-style: italic;
+  background: rgba(221, 221, 221, 0.4);
+  border-radius: 50px;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.header__menu li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 1rem;
+  padding: 0 10px;
+}
+
+.header__menu-nav {
+  z-index: 1;
+  display: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  right: 110px;
+  top: 35px;
+  width: 130px;
+  height: 80px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.header__menu-nav ul {
+  padding: 0;
+}
+.header__menu-nav li {
+  margin-bottom: 5px;
+}
+.header__menu-nav li :hover {
+  box-shadow: 0 1px #000;
+}
+
+.header__menu-icon {
+  display: block;
+  margin-right: 15px;
+}
+.header__menu-icon :hover {
+  background: #ddd;
+}
+.header__menu-icon button {
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  background: transparent;
+  border: none;
+  padding: 5px 10px;
+}
+
+.banner__container {
+  position: relative;
+}
+
+.banner__carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+  height: 740px;
+  overflow: hidden;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  border-radius: 5px;
+}
+
+.carousel__btn-right {
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.5em;
+  z-index: 1;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+}
+.carousel__btn-right :hover {
+  border-radius: 10px;
+  transition: 0.6s;
+  padding: 5px;
+  background: transparent;
+  color: #000;
+}
+
+.carousel__btn-left {
+  position: absolute;
+  left: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.5em;
+  z-index: 1;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+}
+.carousel__btn-left :hover {
+  border-radius: 10px;
+  transition: 0.6s;
+  padding: 5px;
+  background: transparent;
+  color: #000;
+}
+
+.carousel__image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.carousel__image img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.Banner__social {
+  text-align: center;
+  font-size: 4em;
+}
+.Banner__social li {
+  padding: 0 50px;
+  color: rgb(54, 54, 54);
+  display: inline;
+  list-style-type: none;
+}
+
+.header__box-logo {
+  font-size: 150px;
+  margin: 20px 70px;
+  width: 500px;
+  z-index: 1;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+}
+.header__box-logo h3 {
+  color: #fff;
+  margin: 0;
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 100;
+}
+
+.bodyHead__box-image-container {
+  max-width: 100vw;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 70px;
+}
+
+.bodyHead__box-image {
+  overflow: hidden;
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+}
+.bodyHead__box-image :hover {
+  transition: all 0.6s linear;
+  transform: scale(1.1);
+}
+.bodyHead__box-image img {
+  transition: all 0.6s linear;
+  transform: scale(1);
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.body__wedding-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0 60px;
+}
+
+.body__wedding-box {
+  width: 300px;
+  max-height: 500px;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px #ccc solid;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.wedding__box-img {
+  width: auto;
+  height: 400px;
+  overflow: hidden;
+}
+.wedding__box-img :hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.wedding__box-img img {
+  transform: scale(1);
+  transition: all 0.5s;
+  width: 100%;
+  height: 100%;
+}
+
+.wedding__box-title {
+  font-size: 1.2rem;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.wedding__box-content {
+  overflow: hidden;
+}
+
+.wedding__boxCT-price {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.wedding__boxCT-price p {
+  margin: 0;
+}
+
+.wedding__boxCT-surfing {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  font-weight: 500;
+}
+.wedding__boxCT-surfing button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  font-size: 20px;
+}
+.wedding__boxCT-surfing button :hover {
+  border-radius: 50%;
+  color: green;
+  background: #ddd;
+}
+
+.wedding__box-content-scroll {
+  transition: all 0.3s ease-in;
+}
+
+.body__wedding-box:hover .wedding__box-content-scroll {
+  transform: translateY(-27px);
+  transition: all 0.3s ease-in;
+}
+
+.body__dress-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0 60px;
+}
+
+.body__dress-box {
+  width: 300px;
+  max-height: 500px;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px #ccc solid;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.dress__box-img {
+  width: auto;
+  height: 400px;
+  overflow: hidden;
+}
+.dress__box-img :hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+.dress__box-img img {
+  transform: scale(1);
+  transition: all 0.3s;
+  width: 100%;
+  height: 100%;
+}
+
+.dress__box-title {
+  font-size: 1.2rem;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.dress__box-content {
+  overflow: hidden;
+}
+
+.dress__boxCT-price {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.dress__boxCT-price p {
+  margin: 0;
+}
+
+.dress__boxCT-surfing {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  font-weight: 500;
+}
+.dress__boxCT-surfing button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  font-size: 20px;
+}
+.dress__boxCT-surfing button :hover {
+  border-radius: 50%;
+  color: green;
+  background: #ddd;
+}
+
+.dress__box-content-scroll {
+  transition: all 0.3s ease-in;
+}
+
+.body__dress-box:hover .dress__box-content-scroll {
+  transform: translateY(-27px);
+  transition: all 0.3s ease-in;
+}
+
+.body__service-container {
+  width: 100vw;
+  height: auto;
+}
+
+.body__service-title {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.body__service-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service__content-info {
+  margin-left: 100px;
+  font-style: italic;
+}
+.service__content-info h3 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+}
+.service__content-info p {
+  font-size: 17px;
+}
+
+.body__service-span {
+  width: 1px;
+  height: auto;
+  display: block;
+  background: #ccc;
+}
+
+.service__box-shuttle {
+  width: 660px;
+  height: 460px;
+  margin-right: 100px;
+}
+.service__box-shuttle img {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.body__service-box {
+  margin-top: 70px;
+}
+.body__service-box h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0;
+}
+
+.service__box-prewedding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.service__box-prewedding p {
+  margin-right: 200px;
+  font-style: italic;
+  font-size: 20px;
+}
+.service__box-prewedding video {
+  margin-left: 100px;
+}
+
+.service__box-prewedding-btn-booknow button {
+  border: 1px #ddd solid;
+  margin-left: 20px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-style: italic;
+  cursor: pointer;
+}
+.service__box-prewedding-btn-booknow button:hover {
+  background-color: #ccc;
+  transition: all 0.3s;
+}
+
+.bodyContent__btn-router {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.btn__dress-link,
+.btn__wedding-link {
+  display: inline-block;
+  font-size: 2rem;
+  font-style: italic;
+  margin-right: 20px;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn__dress-link:hover,
+.btn__wedding-link:hover {
+  transition: box-shadow 0.3s ease-in;
+  box-shadow: 0 1px #000;
+}
+.btn__dress-link:focus,
+.btn__wedding-link:focus {
+  box-shadow: 0 1px #000;
+}
+.btn__dress-link p,
+.btn__wedding-link p {
+  margin: 0;
+}
+
+.body__content-span {
+  width: 1px;
+  height: 30px;
+  background-color: #000;
+  display: inline-block;
+}
+
+.btn__dress-link {
+  margin-left: 20px;
+}
+
+.body__contact-container {
+  width: 100vw;
+  height: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.body__contact-container input {
+  border: none;
+}
+.body__contact-container h5 {
+  font-size: 45px;
+  font-style: italic;
+  text-align: center;
+  font-weight: 100;
+  margin: 0;
+}
+
+.body__contact-box {
+  position: relative;
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  background: #ccc;
+  border-radius: 20px;
+}
+
+.body__contact-head {
+  display: flex;
+  justify-content: space-around;
+}
+.body__contact-head input {
+  margin-top: 5px;
+  width: 450px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.body__contact-head p {
+  margin: 0;
+}
+
+.body__contact-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.body__contact-gmail input {
+  margin-top: 5px;
+  width: 450px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.body__contact-gmail p {
+  margin: 0;
+  margin-top: 18px;
+}
+
+.body__contact-mess {
+  margin-bottom: 20px;
+}
+.body__contact-mess input {
+  margin-top: 5px;
+  width: 450px;
+  height: 100px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.body__contact-mess p {
+  margin: 0;
+  margin-top: 18px;
+}
+
+.body__contact-footer {
+  position: absolute;
+  bottom: 20px;
+  left: 200px;
+}
+.body__contact-footer button {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+.body__contact-footer :hover {
+  background: #000;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.footer__container {
+  width: 100vw;
+  height: auto;
+}
+.footer__container span {
+  margin: 0 auto;
+  width: 500px;
+  height: 1px;
+  background: #000;
+  display: block;
+}
+
+.footer__image {
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+}
+.footer__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__content li {
+  list-style-type: none;
+}
+.footer__content h3 {
+  text-align: center;
+}
+
+.footer__content-address,
+.footer__content-service,
+.footer__content-rules {
+  width: 300px;
+  height: auto;
+}
+
+.footer__content-icon {
+  text-align: center;
+}
+.footer__content-icon a {
+  font-size: 20px;
+  margin: 20px 10px;
+}/*# sourceMappingURL=main.css.map */

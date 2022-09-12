@@ -1,0 +1,91 @@
+.body__service-container {
+    width: 100vw;
+    height: auto;
+}
+
+.body__service-title {
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.body__service-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service__content-info {
+    margin-left: 100px;
+    font-style: italic;
+    h3 {
+        font-size: 30px;
+        font-style: italic;
+        font-weight: 400;
+    }
+    p {
+        font-size: 17px;
+    }
+}
+
+.service__content-promotion {
+}
+
+.body__service-span {
+    width: 1px;
+    height: auto;
+    display: block;
+    background: #ccc;
+}
+
+.service__box-shuttle {
+    width: 660px;
+    height: 460px;
+    margin-right: 100px;
+    img {
+        width: 100%;
+        height: 100%;
+        margin-top: 100px;
+        border-radius: 10px;
+    }
+}
+.body__service-box {
+    margin-top: 70px;
+    h3 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        font-style: italic;
+        margin: 0;
+    }
+}
+
+.service__box-prewedding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+        margin-right: 200px;
+        font-style: italic;
+        font-size: 20px;
+    }
+    video {
+        margin-left: 100px;
+    }
+}
+
+.service__box-prewedding-btn-booknow {
+    button {
+        border: 1px #ddd solid;
+        margin-left: 20px;
+        padding: 5px 15px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-style: italic;
+        cursor: pointer;
+        &:hover {
+            background-color: #ccc;
+            transition: all 0.3s;
+        }
+    }
+}

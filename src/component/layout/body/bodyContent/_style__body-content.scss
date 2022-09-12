@@ -1,0 +1,40 @@
+@import "../bodyContent/bodyWedding/_style__body-wedding";
+@import "../bodyContent/bodyDress/_style__body-dress";
+@import "../bodyContent/bodyService/_style__body-service";
+
+.bodyContent__btn-router {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.btn__dress-link,
+.btn__wedding-link {
+    display: inline-block;
+    font-size: 2rem;
+    font-style: italic;
+    margin-right: 20px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+        transition: box-shadow 0.3s ease-in;
+        box-shadow: 0 1px #000;
+    }
+    &:focus {
+        box-shadow: 0 1px #000;
+    }
+    p {
+        margin: 0;
+    }
+}
+
+.body__content-span {
+    width: 1px;
+    height: 30px;
+    background-color: #000;
+    display: inline-block;
+}
+
+.btn__dress-link {
+    margin-left: 20px;
+}
